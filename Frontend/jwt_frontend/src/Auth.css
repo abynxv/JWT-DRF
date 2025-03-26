@@ -1,0 +1,91 @@
+/* Full page centering */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Authentication box */
+.auth-box {
+  width: 380px; /* Slightly wider for better spacing */
+  padding: 25px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+}
+
+/* Input group styling */
+.input-group {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+/* Labels */
+.input-group label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+.auth-box input {
+  width: 100%; /* Makes the input fit inside the box */
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+/* Focus effect on input */
+.auth-box input:focus {
+  border-color: #007bff;
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Button */
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.auth-box button:hover {
+  background: #0056b3;
+}
+
+/* Forgot Password & Signup Links */
+.auth-box a {
+  display: block;
+  margin-top: 12px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.auth-box a:hover {
+  text-decoration: underline;
+}
